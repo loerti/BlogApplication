@@ -1,0 +1,99 @@
+/*--------------------------------*/
+body{
+    font-family: Monospaced,Arial;
+}
+/* Main Page Section and Aside Coordination */
+section#cards-section {
+    /*display : inline-block;*/
+    float: right;
+    margin: 1% 1%;
+    width: 63%;
+}
+
+aside#filter {
+    /*display : inline-block;*/
+    /*width: 20em;*/
+    max-width: 25em;
+    float: left;
+    margin: 0 0.5%;
+    width: 30%;
+    padding: 25px;
+    border: 1px dashed dodgerblue;
+}
+/*--------------------------------*/
+/*Filter Styles*/
+form#filter-form{
+    display: flex;
+    flex-flow: column;
+}
+
+aside#filter h2{
+    display: flex;
+    margin: 20px;
+}
+/*Underline*/
+.underline {
+    text-decoration: none;
+    position: relative;
+}
+
+.underline:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 60%;
+    background: orange;
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+
+.underline:hover:after {
+    width: 80%;
+    background: dodgerblue;
+}
+/*Underline Header END*/
+
+form#filter-form select{
+    width: 100%;
+}
+
+#fieldset-container{
+    display: flex;
+    flex-flow: column;
+
+    margin: 20px;
+}
+fieldset{
+    margin-bottom: 50px;
+}
+fieldset label{
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+
+    font-weight: bold;
+}
+
+/* Row */
+.row{
+    margin-bottom: 25px;
+}
+
+/*Labels for Errors*/
+#noResult-label{
+    color: #0a53be;
+    text-align: center;
+    text-decoration: underline;
+
+    display: none;
+}

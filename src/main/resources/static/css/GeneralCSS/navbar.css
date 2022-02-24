@@ -1,0 +1,11 @@
+/* Navbar */
+li.nav-item{
+    margin-right: 15px;
+}
+.navbarItems{
+    margin-right: 0!important;
+    margin-left: auto!important;
+}
+.search{
+    margin-left: auto!important;
+}

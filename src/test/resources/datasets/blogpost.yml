@@ -1,0 +1,30 @@
+BLOGCATEGORY:
+  - categoryId: 2
+    categoryName: "Team"
+  - categoryId: 3
+    categoryName: "Event"
+
+BLOGPOST:
+  - blogId: 1
+    title: "Trainee Newest Blog"
+    content: "Some content for Trainee New Blog testing purpose"
+    dateStamp: "2022-02-11"
+    authorName: "User"
+    imagePath: "some/test/imagePath"
+    categoryId: 3
+  - blogId: 2
+    title: "Enxhi"
+    content: "Some React related content for testing purpose"
+    dateStamp: "2021-03-01"
+    authorName: "User"
+    imagePath: "some/test/imagePath2"
+    categoryId: 2
+  - blogId: 3
+    title: "Pema e Art Team Night Out"
+    content: "Some content for the Night Out Event testing purpose"
+    dateStamp: "2020-12-10"
+    authorName: "User"
+    imagePath: "some/test/imagePath3"
+    categoryId: 2
+
+

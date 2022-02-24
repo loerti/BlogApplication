@@ -1,0 +1,33 @@
+body{
+    font-family: Monospaced,Arial;
+}
+/*----------------------------------*/
+/*Blog Post Headers*/
+.container{
+    margin-top: 25px;
+}
+
+.container h1{
+    color: #4e94d8;
+
+}
+h2#author-header{
+    font-size: larger;
+}
+h3#date-header{
+    font-size: medium;
+}
+
+/*Blog Post Paragraph*/
+#blogPost-description{
+    margin-top: 15px;
+
+    max-width: 850px;
+}
+
+/*Button Containe */
+#btn-container{
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 25px;
+}

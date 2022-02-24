@@ -1,0 +1,52 @@
+body{
+    font-family: Monospaced,Arial;
+}
+
+section#addPostForm-section{
+    padding: 25px 100px;
+}
+
+section#addPostForm-section h1{
+    color: dodgerblue;
+}
+
+#btn-container{
+    margin-top: 25px;
+    text-align: end;
+}
+
+.form-text{
+    font-size: smaller;
+    font-style: italic;
+}
+
+/* Underline */
+.underline {
+    text-decoration: none;
+    position: relative;
+}
+
+.underline:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    bottom: -4px;
+
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 60%;
+    background: orange;
+
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+
+.underline:hover:after {
+    width: 80%;
+    background: dodgerblue;
+}
