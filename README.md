@@ -38,4 +38,4 @@ Contributors
 
 -   Enxhi Tabaku
 -   Grasjela Qyli
--   Loert Shahini
+-   Loerti Shahini
